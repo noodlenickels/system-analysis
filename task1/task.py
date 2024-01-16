@@ -10,7 +10,7 @@ print('Matrix saved successfully', '\n')
 csv_data = np.genfromtxt('example.csv', delimiter=',')
 print(csv_data, '\n')
 
-# Чтение json'а
+# Чтение json
 with open('example.json') as file:
     json_data = json.load(file)
     print(json_data)
